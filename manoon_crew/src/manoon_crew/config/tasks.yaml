@@ -1,0 +1,24 @@
+keyword_research:
+  name: >
+    Find the latest and most traffic generating keywords for the skincare, 
+    antiaging and face serum niche.
+  description: >
+    Research and identify current trending keywords and search terms in the 
+    skincare industry, focusing on antiaging and face serum categories. Use 
+    search tools to find high-traffic keywords and analyze their potential.
+    Provide a comprehensive list of trending keywords with their potential 
+    traffic value, organized by relevance and search volume.
+  expected_output: > 
+    a list of trending keywords with search volumes and relevance scores
+  agent: researcher
+
+content_writing:
+  name: "Create SEO Content"
+  description: >
+    Using the keyword research findings, create an engaging blog post.
+    Incorporate the keywords naturally while maintaining readability.
+    Structure the content with clear sections and maintain a professional tone.
+    The final output should be a well-structured blog post that effectively 
+    incorporates the researched keywords while maintaining natural flow and engagement.
+  expected_output: "A well-structured blog post with natural keyword integration"
+  agent: writer

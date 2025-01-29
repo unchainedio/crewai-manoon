@@ -1,0 +1,23 @@
+[project]
+name = "manoon_crew"
+version = "0.1.0"
+description = "manoon-crew using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.100.0,<1.0.0"
+]
+
+[project.scripts]
+manoon_crew = "manoon_crew.main:run"
+run_crew = "manoon_crew.main:run"
+train = "manoon_crew.main:train"
+replay = "manoon_crew.main:replay"
+test = "manoon_crew.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
